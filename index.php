@@ -21,6 +21,14 @@ and open the template in the editor.
                echo 'key :'.$k.'  / '.$v.'<br>'; 
             }
             
+            $array2=['dmax','honda','kava'];
+            print_r($array2);
+                echo '<hr>';
+                echo $array2[1];
+            
+            for($x=0;$x<count($array2);$x++){
+                echo $array2[$x]. '<br>';
+            }
         
         
         
